@@ -14,4 +14,4 @@ app.add_handler(CommandHandler("start", start))
 
 if __name__ == "__main__":
     print("Bot iniciado correctamente...")
-    app.run_polling(drop_pending_updates=True)
+    app.run_polling(drop_pending_updates=False)
